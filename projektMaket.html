@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>maket</title>
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body,
+      .wrapper {
+        height: 100%;
+      }
+      .wrapper {
+        padding: 10px 50px;
+      }
+      .head {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      button {
+        border-radius: 30px;
+        padding: 5px;
+        margin-left: 35px;
+        background: rgba(0, 128, 58, 0.441);
+        color: white;
+        font-size: 14px;
+
+      }
+
+      .emblema i {
+        color: green;
+      }
+      .emblema{
+        font-size: 26px;
+        font-weight: 600;
+      }
+      a {
+        color: black;
+      }
+      h1 {
+        font-size: 70px;
+        line-height: 3.5rem;
+      }
+      p {
+        color: grey;
+        padding-top: 25px;
+      }
+  
+      img {
+        width: 800px;
+    
+      }
+      .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .left {
+        line-height: 2.5rem;
+        flex: 1;
+      }
+      .left button  {
+        border-radius: 40px;
+        padding: 15px;
+        margin: 40px 10px 40px 0;
+        background: rgba(0, 0, 0, 0.849);
+        color: blanchedalmond;
+        font-size: 16px;
+
+      }
+      p i {
+        font-size: 32px;
+        color: black;
+      }
+      .left i {
+        font-size: px;
+      }
+
+      
+      .right {
+        flex: 2;
+      }
+      .down {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+      .Options {
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        padding: 10px;
+        margin-top: 15px;
+        width: 450px;
+      }
+      .Options i {
+        font-size: 48px;
+        color: aquamarine;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="head">
+        <div class="emblema">
+          <i class="lab la-bimobject"></i>
+          bensinon
+        </div>
+
+        <div class="menu">
+          <a href="">Home</a>
+          <a href="">Feature</a>
+          <a href="">Screen</a>
+          <a href="">Pricing</a>
+          <a href="">Team</a>
+          <a href="">Question</a>
+          <button>Get started</button>
+        </div>
+      </header>
+
+      <div class="center">
+        <div class="left">
+          <h1>Refueling a car at your address</h1>
+          <p>Delivery service for all types of fuel for your car</p>
+          <button><i class="lab la-apple"></i>Apple store</button>
+          <button><i class="lab la-google-play"></i>google play</button>
+          <p>
+            <i class="lab la-instagram"></i>
+            <i class="lab la-facebook"></i>
+            <i class="lab la-twitter"></i>
+          </p>
+        </div>
+        <div class="right">
+          <figure>
+            <img
+              src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+              alt=""
+            />
+          </figure>
+        </div>
+      </div>
+      <div class="down">
+        <div class="Options">
+          <i class="las la-clock"></i>
+          <h2>Specified order</h2>
+          <p>Refueling your car at the time and date you specify</p>
+        </div>
+
+        <div class="Options">
+          <i class="las la-map-marker-alt"></i>
+          <h2>Delivery</h2>
+          <p>Refueling your car at the time and date you specify</p>
+        </div>
+
+        <div class="Options">
+          <i class="las la-credit-card"></i>
+          <h2>Pyment types</h2>
+          <p>Refueling your car at the time and date you specify</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
